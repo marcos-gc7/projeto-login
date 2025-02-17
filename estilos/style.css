@@ -30,13 +30,23 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
 }
 
 section#login > div#imagem {
-    background: #808080 url(../imagens/imagem-de-fundo.jpg);
+    display: block;
+    background: #808080 url(../imagens/imagem-de-fundo.jpg) center center no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
