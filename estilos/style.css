@@ -2,7 +2,7 @@
 
 /*
     Paleta de Cores
-    Cinza Escuro: #505050
+    Cinza Escuro: #292929
     Cinza Claro: #808080
 */
 
@@ -37,6 +37,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
